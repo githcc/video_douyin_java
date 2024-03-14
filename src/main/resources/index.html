@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico"/>
-    <title>视频播放页面</title>
+    <title>18年抖音</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -96,7 +96,7 @@
     window.addEventListener("keydown", function (event) {
         if (event.key === "ArrowRight" || event.key === "ArrowDown") {
             // currentVideoIndex = (currentVideoIndex + 1) % videos.length;// 下一个视频
-            currentVideoIndex = (currentVideoIndex + Math.floor(Math.random() * videos.length)) % videos.length;// 随机
+            currentVideoIndex = Math.floor(Math.random() * videos.length) % videos.length;// 随机
             updateVideo();
         } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") { // 上一个视频
             currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
