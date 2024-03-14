@@ -87,7 +87,7 @@
         let bgColor = `rgb(${r}, ${g}, ${b})`;
         document.body.style.backgroundColor = bgColor;
     }
-
+    let rotateAngle = 0;
     // 方向键控制切换视频
     window.addEventListener("keydown", function (event) {
         if (event.key === "ArrowRight" || event.key === "ArrowDown") { // 下一个视频
