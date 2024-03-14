@@ -41,17 +41,21 @@
 
 <div class="video-container">
     <video id="myVideo" loop>
-        <source src="video/0.mp4" type="video/mp4">
+        <source src="video1/0.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="video-description">
-        <p>别计较太多，怎么快乐怎么过</p>
+        <p>《回到过去》#顺顺尼</p>
     </div>
 </div>
 
 <script src="data_videos.js"></script>
 <script src="data_videoDescriptions.js"></script>
 <script>
+    if (videoDescriptions.length != videos.length){
+        alert("数据对不上")
+    }
+
     let currentVideoIndex = 0; // 当前视频索引
     let video = document.getElementById("myVideo");
     let videoDescription = document.querySelector(".video-description");
@@ -90,8 +94,9 @@
     let rotateAngle = 0;
     // 方向键控制切换视频
     window.addEventListener("keydown", function (event) {
-        if (event.key === "ArrowRight" || event.key === "ArrowDown") { // 下一个视频
-            currentVideoIndex = (currentVideoIndex + 1) % videos.length;
+        if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+            // currentVideoIndex = (currentVideoIndex + 1) % videos.length;// 下一个视频
+            currentVideoIndex = (currentVideoIndex + Math.floor(Math.random() * videos.length)) % videos.length;// 随机
             updateVideo();
         } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") { // 上一个视频
             currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
