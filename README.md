@@ -21,4 +21,4 @@ https://chat.openai.com/share/a255dacc-73ef-4d5f-9034-86d2263b0819
 
 ## 内容
 1. [18年抖音](https://githcc.github.io/video-self-java/example/18%E5%B9%B4%E6%8A%96%E9%9F%B3/)
-2. 22年抖音
+2. [22年抖音](https://githcc.github.io/video-self-java/example/22%E5%B9%B4%E6%8A%96%E9%9F%B3/)
