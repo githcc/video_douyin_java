@@ -92,13 +92,13 @@
         document.body.style.backgroundColor = bgColor;
     }
     let rotateAngle = 0;
-    // 方向键控制切换视频
+    // 方向键和滑动控制切换视频
     window.addEventListener("keydown", function (event) {
-        if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        if (event.key === "ArrowRight" || event.key === "ArrowDown" || event.key === "ArrowDown") {
             // currentVideoIndex = (currentVideoIndex + 1) % videos.length;// 下一个视频
             currentVideoIndex = Math.floor(Math.random() * videos.length) % videos.length;// 随机
             updateVideo();
-        } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") { // 上一个视频
+        } else if (event.key === "ArrowLeft" || event.key === "ArrowUp" || event.key === "ArrowUp") { // 上一个视频
             currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
             updateVideo();
         } else if (event.key === " ") { // 空格键，暂停或播放视频
@@ -140,6 +140,28 @@
             video.pause();
         }
     };
+
+    // 滑动事件处理
+    let touchStartY = 0;
+    let touchEndY = 0;
+    window.addEventListener('touchstart', function(event) {
+        touchStartY = event.touches[0].clientY;
+    });
+
+    window.addEventListener('touchend', function(event) {
+        touchEndY = event.changedTouches[0].clientY;
+        let deltaY = touchEndY - touchStartY;
+        if (deltaY > 50) {
+            // 下滑，类似于按下箭头键向下
+            currentVideoIndex = Math.floor(Math.random() * videos.length) % videos.length;// 随机
+            updateVideo();
+        } else if (deltaY < -50) {
+            // 上滑，类似于按下箭头键向上
+            currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
+            updateVideo();
+        }
+    });
+
 </script>
 
 </body>

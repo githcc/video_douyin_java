@@ -4,11 +4,17 @@ https://chat.openai.com/share/447cfc59-a940-4098-a7ab-a198aa6ad6c7
 ## 编写html页面
 https://chat.openai.com/share/a255dacc-73ef-4d5f-9034-86d2263b0819
 
-## 使用
+## 添加滑动交互
+https://chat.openai.com/share/d1dd0249-73c4-4bd9-857a-c3e26c4ea734
+
+## 文字教程
 1. 浏览器F12查看favorite接口
 2. 将数据复制到data_favorite.json
 3. 运行main方法
 4. 打开target/classes目录下的index.html
+
+## gif教程
+![](example/other/20240315_191809.gif)
 
 ## 操作逻辑
 1. 点击、空格,暂停或播放视频
@@ -17,7 +23,7 @@ https://chat.openai.com/share/a255dacc-73ef-4d5f-9034-86d2263b0819
 4. 回车，旋转视频90度
 
 ## 例子
-![](example/other/20240314_203005.gif)
+![](example/other/20240315_191341.gif)
 
 ## 内容
 1. [18年抖音](https://githcc.github.io/video-self-java/example/18%E5%B9%B4%E6%8A%96%E9%9F%B3/)
