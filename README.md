@@ -26,5 +26,5 @@ https://chat.openai.com/share/d1dd0249-73c4-4bd9-857a-c3e26c4ea734
 ![](example/other/20240315_191341.gif)
 
 ## 内容
-1. [18年抖音](https://githcc.github.io/video-self-java/example/18%E5%B9%B4%E6%8A%96%E9%9F%B3/)
-2. [22年抖音](https://githcc.github.io/video-self-java/example/22%E5%B9%B4%E6%8A%96%E9%9F%B3/)
+1. [18年抖音](https://githcc.github.io/video_self_java/example/18%E5%B9%B4%E6%8A%96%E9%9F%B3/)
+2. [22年抖音](https://githcc.github.io/video_self_java/example/22%E5%B9%B4%E6%8A%96%E9%9F%B3/)
