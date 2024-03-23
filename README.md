@@ -14,7 +14,7 @@ https://chat.openai.com/share/d1dd0249-73c4-4bd9-857a-c3e26c4ea734
 4. 打开target/classes目录下的index.html
 
 ## gif教程
-![](example/other/20240315_191809.gif)
+![](gif/20240315_191809.gif)
 
 ## 操作逻辑
 1. 点击、空格,暂停或播放视频
@@ -23,8 +23,8 @@ https://chat.openai.com/share/d1dd0249-73c4-4bd9-857a-c3e26c4ea734
 4. 回车，旋转视频90度
 
 ## 例子
-![](example/other/20240315_191341.gif)
+![](gif/20240315_191341.gif)
 
 ## 内容
-1. [18年抖音](https://githcc.github.io/video_self_java/example/18%E5%B9%B4%E6%8A%96%E9%9F%B3/)
-2. [22年抖音](https://githcc.github.io/video_self_java/example/22%E5%B9%B4%E6%8A%96%E9%9F%B3/)
+1. [18年抖音](https://githcc.github.io/video_self/18%E5%B9%B4%E6%8A%96%E9%9F%B3/)
+2. [22年抖音](https://githcc.github.io/video_self/22%E5%B9%B4%E6%8A%96%E9%9F%B3/)
