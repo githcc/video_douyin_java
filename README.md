@@ -8,7 +8,7 @@ https://chat.openai.com/share/a255dacc-73ef-4d5f-9034-86d2263b0819
 https://chat.openai.com/share/d1dd0249-73c4-4bd9-857a-c3e26c4ea734
 
 ## 文字教程
-1. 浏览器F12查看favorite接口
+1. 浏览器F12查看favorite/?接口
 2. 将数据复制到data_favorite.json
 3. 运行main方法
 4. 打开target/classes目录下的index.html
