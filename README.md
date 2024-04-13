@@ -1,7 +1,7 @@
 ## AI输出记录
-1. [读取解析json文件](https://chat.openai.com/share/447cfc59-a940-4098-a7ab-a198aa6ad6c7)
-2. [编写html页面](https://chat.openai.com/share/a255dacc-73ef-4d5f-9034-86d2263b0819)
-3. [添加滑动交互](https://chat.openai.com/share/d1dd0249-73c4-4bd9-857a-c3e26c4ea734)
+1. [读取解析json文件](https://githcc.github.io/webpage_self_html/openai/v1/447cfc59-a940-4098-a7ab-a198aa6ad6c7.html)
+2. [编写html页面](https://githcc.github.io/webpage_self_html/openai/v1/a255dacc-73ef-4d5f-9034-86d2263b0819.html)
+3. [添加滑动交互](https://githcc.github.io/webpage_self_html/openai/v1/d1dd0249-73c4-4bd9-857a-c3e26c4ea734.html)
 
 ## 文字教程
 1. 浏览器F12查看favorite/?接口
